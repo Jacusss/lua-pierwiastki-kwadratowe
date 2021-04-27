@@ -1,0 +1,14 @@
+print("program oblicza pierwiastki równania kwadratowego")
+print("ax2+bx+c=0   podaj a")
+a = io.read( )
+print("ax2+bx+c=0   podaj b")
+b = io.read( )
+print("ax2+bx+c=0   podaj c")
+c = io.read( )
+function funkcja( parametr1, parametr2 ) --Linia deklaruj¹ca funkcjê
+
+   return parametr1 * parametr2 --S³owo kluczowe "return" powoduje zwrócenie wartoœci przez funkcjê
+
+end
+
+print( tostring( funkcja( a, b ) ) ) --Wyœwietlanie wyniku (50)

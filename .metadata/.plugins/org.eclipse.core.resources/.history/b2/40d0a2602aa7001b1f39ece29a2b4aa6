@@ -1,0 +1,11 @@
+print("program oblicza pierwiastki równania kwadratowego")
+print("ax2+bx+c=0   podaj a")
+a = io.read( )
+print("ax2+bx+c=0   podaj b")
+imie = io.read( )
+print("ax2+bx+c=0   podaj c")
+imie = io.read( )
+funkction = delta( a, b, c )
+return b * b - 4 * a * c
+end
+rint( "Czesc, " .. delta .. "." )
